@@ -16,7 +16,7 @@ public class GitHubStepDefs {
     public void github_api_is_available() {
         RestAssured.baseURI = "https://api.github.com";
     }
-
+//just for testing
     @When("I send a POST request to create a new repository")
     public void i_send_post_request_to_create_repo() {
         String requestBody = "\"{\\r\\n\"\n"
